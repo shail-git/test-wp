@@ -1,0 +1,127 @@
+#root {
+    overflow: hidden;
+    
+  }
+  
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: 15%;
+    margin-top: 25%;
+    position: absolute;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+  }
+  
+  .card1 {
+    margin: 8%;
+    min-width: 60ch;
+    min-height: 60ch;
+    width: 28vw;
+    height: 28vw;
+    max-width: 90ch;
+    max-height: 90ch;
+    background-image: url(./pocket.png); /* beach*/
+  }
+  
+  .card2 {
+    margin-top: 30%;
+    width: 15ch;
+    height: 15ch;
+    /* sun */
+    background-image: url(./drama.png); 
+  }
+  .card5 {
+    margin-top: 8%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 20ch;
+    height: 20ch;
+    /* sun */
+    background-image: url(./karaoke\ copy.png); 
+  }
+  
+  .card3 {
+    margin-top: 18%;
+    margin-left: 30%;
+    opacity: 0.9;
+    width: 18ch;
+    height: 18ch;
+    /* cloud */
+    background-image: url(./balloons.png);
+  }
+  .card6 {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+    margin-left: 65%;
+    opacity: 0.9;
+    width: 18ch;
+    height: 18ch;
+    /* cloud */
+    background-image: url(./cheers.png);
+  }
+  
+  .card4 {
+    margin-top: -15%;
+    margin-left: 5%;
+    width: 10ch;
+    height: 10ch;
+    /* bird */
+    background-image: url(./confetii.png);
+  }
+
+
+  @media screen and (max-width:550px){
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: 15%;
+    margin-top: 25%;
+    position: absolute;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+  }
+  
+  .card1 {
+    margin: 8%;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(https://image.flaticon.com/icons/svg/119/119596.svg); /* beach*/
+  }
+  
+  .card2 {
+    margin-top: 30%;
+    width: 25ch;
+    height: 25ch;
+    /* sun */
+    background-image: url(https://image.flaticon.com/icons/svg/789/789395.svg); 
+  }
+  
+  .card3 {
+    margin-top: 40%;
+    margin-left: 30%;
+    opacity: 0.9;
+    width: 25ch;
+    height: 25ch;
+    /* cloud */
+    background-image: url(https://image.flaticon.com/icons/svg/414/414927.svg);
+  }
+  
+  .card4 {
+    margin-top: 40%;
+    margin-left: 30%;
+    width: 25ch;
+    height: 25ch;
+    /* bird */
+    background-image: url(https://image.flaticon.com/icons/svg/789/789392.svg);
+  }
+  }

@@ -1,0 +1,170 @@
+.main {
+  padding: 10px;
+}
+
+.left {
+  align-items: center;
+  justify-content: center;
+  /* border-right: darkblue 1px solid; */
+  height: 100%;
+  max-height:720px;
+  padding-right: 3%;
+}
+.count{
+  color: gray;
+}
+.reviews{
+    padding-top: 3%;
+}
+.verified{
+  color: darkblue;
+}
+.ver{
+  color: darkblue;
+  padding-top: 18px;
+  padding-right: 18px;
+}
+.right {
+  color: black;
+}
+
+.right ul {
+  list-style-type: none;
+  padding-left: 0%;
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
+}
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 650px;
+}
+.pkg_title{
+  font-weight: 500;
+}
+
+.btnx{
+  margin:2px 10px;
+  padding: 2px 5px;
+}
+
+.left .btn_grp{
+  max-height:90px;
+  align-items: center;
+  padding: 3% ;
+}
+
+.btn-pocket{
+  background-color: white;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: darkblue;
+  padding: 10px 20px 10px 20px;
+  color: darkblue;
+  
+}
+.btn-book{
+  background-color: darkblue;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: darkblue;
+  padding: 10px 15px 10px 15px;
+  color: white;
+ 
+}
+.ratings{
+  color: darkblue;
+}
+.review-star{
+  color: darkblue;
+}
+.review-title{
+  color: darkblue;
+}
+.review-ver{
+  color: darkblue;
+}
+.review-body{
+  overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 5;
+-webkit-box-orient: vertical;
+}
+.btn-rewiew{
+  background-color: white;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: darkblue;
+  padding: 5px 10px 5px 10px;
+  color: darkblue;
+}
+.btn-rewiew ::hover {
+  background-color: white !important ; 
+  border: solid 2px !important;
+  border-radius: 5px !important;
+  border-color: darkblue !important;
+  padding: 5px 10px 5px 10px !important;
+  color: darkblue !important;
+}
+.footer{
+  background-color: gray;
+  height: 10rem;
+}
+
+@media screen and (max-width: 500px){
+  .left{
+    border:none;
+  }
+  .btn-pocket{
+    background-color: white;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: darkblue;
+    padding: 15px 15px 15px 15px;
+    color: darkblue;
+    font-size: 120%;
+    position: sticky;
+    top: 0;
+  
+  }
+  .btn-book{
+    background-color: darkblue;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: darkblue;
+    padding: 15px 10px 15px 10px;
+    color: white;
+    font-size: 120%;
+  }
+  .price{
+    font-size: 180%;
+  }
+  .discount{
+    font-size: larger;
+  }
+  .verified{
+    color: darkblue;
+    font-size: 90%;
+  }
+  .review-ver{
+    color: darkblue;
+    font-size: 70%;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators li {
+  background-color: darkgray; 
+}

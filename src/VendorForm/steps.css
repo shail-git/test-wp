@@ -1,0 +1,7 @@
+.tnc{
+
+}
+.tnc:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

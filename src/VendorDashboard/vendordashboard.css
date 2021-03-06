@@ -1,0 +1,70 @@
+.wp-blue-bg{
+    background:#000c52;
+}
+.outter{
+   
+}
+.boxed-content{
+    background:white;
+    border:1px solid white;
+    border-radius:15px;
+}
+.ppim{
+    border-radius: 50%;
+    border:2px double black;
+}
+.stats{
+    border:3px solid #000c52;
+    border-radius: 15px;
+    padding: 40px 70px;
+}
+.stats h1{
+    font-size: 50px;
+}
+.r{
+    color:red;
+}
+.g{
+    color:green;
+}
+.w{
+    color:white;
+}
+.w .MuiSvgIcon-root{
+    font-size: 2em! important;
+}
+.box{
+    
+    border:1px solid #000c52;
+    border-radius: 10px;
+}
+.im{
+    margin-top:20px;
+    margin-left:-20px;
+}
+.tdn{
+    text-decoration: none;
+}
+.stat-name{
+    color: gray;
+}
+.store-top{
+    margin-top: -15px;
+    color: grey;
+    margin-bottom: -5px;
+}
+.store-btm{
+    color: grey;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.mind{
+    color: grey;
+}
+@media screen and (max-width:550px){
+    .stats{
+        border:3px solid #000c52;
+        border-radius: 15px;
+        padding: 40px 70px;
+    }
+}

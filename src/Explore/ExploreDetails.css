@@ -1,0 +1,119 @@
+.pkg_card_left{
+    background-color: #000c52;
+    color: white;
+    border-radius: 10px;
+    height: 18rem;
+    padding-left: 25px;
+    padding-top: 18px;
+}
+.pkg_card_right{
+    background-color: #000c52;
+    color: white;
+    border-radius: 10px;
+    height: 18rem;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+.like-btn{
+    font-size: x-large;
+}
+.tick{
+    margin-right: 25px;
+    color: white;
+}
+.btn-explore-pocket{
+    background-color: #000c52;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-size: 120%;
+}
+.btn-explore-book{
+    background-color: white;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 15px 10px 15px;
+    color: #000c52;
+    font-size: 120%;
+}
+
+.move{
+    background: transparent;
+    position: relative;;
+    z-index: 100;
+    transform:translateX(0px) translateY(-80px);
+}
+
+.stay{
+    z-index: 0;
+}
+.days{
+    padding: 8px;
+    border: solid #000c52 3px;
+    border-radius: 10px;
+}
+.days-red{
+    padding: 8px;
+    border: solid red 3px;
+    border-radius: 10px;
+}
+.days-green{
+    padding: 8px;
+    border: solid green 3px;
+    border-radius: 10px;
+}
+.left-gap{
+    padding-left: 13px;
+}
+.dis-color{
+    color: lightgreen;
+}
+@media screen and (max-width:550px){
+    .move{
+        transform:translateX(0px) translateY(0px);
+    }
+    .pkg_card_left{
+        background-color: #000c52;
+        color: white;
+        border-radius: 10px;
+        height: 29rem;
+        padding-left: 25px;
+        padding-top: 18px;
+    }
+    .pkg_card_right{
+        background-color: #000c52;
+        color: white;
+        border-radius: 10px;
+        height: 17rem;
+        padding-top: 18px;
+        padding-left: 10px;
+        padding-right: 6px;
+    }
+    .tick{
+        padding-top: 20px;
+        margin-right: 25px;
+        color: white;
+    }
+    .btn-explore-pocket{
+        background-color: #000c52;
+        border: solid 2px;
+        border-radius: 10px;
+        border-color: white;
+        padding: 10px 10px 10px 10px;
+        color: white;
+        font-size: 120%;
+    }
+    .btn-explore-book{
+        background-color: white;
+        border: solid 2px;
+        border-radius: 10px;
+        border-color: white;
+        padding: 10px 10px 10px 10px;
+        color: #000c52;
+        font-size: 120%;
+    }
+}

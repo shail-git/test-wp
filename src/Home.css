@@ -1,0 +1,132 @@
+.bl-bcg{
+    background-color: #000c52;
+    color: white;
+    height: 75vh;
+}
+.mouse{
+    margin: 10%;
+}
+.crousal-gap{
+    margin-top: -15%;
+    margin-bottom: 5%;
+}
+.x{
+  width:20%;
+  height: 20%;
+  opacity: 21%;
+  padding: 2%;
+  margin: 2%;
+}
+.bcg-wave{
+    background-image: url(./wave.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    height: 100vh;
+}
+.create{
+    margin: 5%;
+    background-color: #000c52;
+    border-radius: 10px;
+    color: white;
+}
+.explore{
+    margin: 5%;
+    background-color: #000c52;
+    border-radius: 10px;
+    color: white;
+}
+.c-img{
+    width: 70%;
+    height: 70%;
+    
+}
+.c-rot{
+    transform: rotate(15deg);
+}
+.e-img{
+    width: 70%;
+    height: 70%;
+}
+.trial{
+    margin-top: 0%;
+    height: 80vh;
+}
+.name{
+    padding-top: 35%;
+    font-size: 400%;
+}
+.tag{
+    font-size: 200%;
+}
+.right{
+    background-color: white;
+}
+.bttn{
+    margin-top: 10%;
+    border: solid white;
+    border-radius: 10px;
+    background-color:#000c52;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: large; 
+}
+.web-bt{
+    background-color: #000c52;
+    color: white;
+    transition-duration: 0.35s;
+    border: solid;
+    border-color: white;
+    -webkit-transition-duration: 0.35s;
+    -webkit-transition-timing-function: linear;
+    box-shadow: 0px 0 0 white  inset;
+}
+.web-bt:hover{
+    background-color: black;
+    color: black;
+    border: solid;
+    border-color: white; 
+    box-shadow: 250px 0 0 white inset;
+}
+.wave{
+    margin-top: 10%;
+    border: solid 5px black;
+}
+.what{
+    font-size: 300%;
+    margin-top: -10%;
+}
+.wave-gap{
+    padding-top: 37%;
+}
+.wave-rev{
+    margin-top: -8%;
+}
+.below-wave{
+    background-color: #000c52;
+    color: white;
+}
+@media screen and (max-width:550px){
+    .name{
+        padding-top: 13%;
+        font-size: 300%;
+    }
+    .tag{
+
+        font-size: 150%;
+    }
+    .what{
+        font-size: 200%;
+    }
+    .bcg-wave{
+        background-image: url(./wave.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 0%;
+        height: 75vh;
+    }
+    .mouse{
+        margin: 10%;
+        
+    }
+}

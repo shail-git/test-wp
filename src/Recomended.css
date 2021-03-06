@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px){
+    .name{
+        font-size: 100%;
+        
+    }
+    .tick{
+        
+        color: darkblue;
+        
+    }
+    .pr{
+        font-size: 100%;
+    }
+    .dis{
+        font-size: 80%;
+    }
+}

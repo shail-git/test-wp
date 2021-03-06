@@ -1,0 +1,25 @@
+.box{
+    color:white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.add-txt{
+    padding:5px;
+    margin:30px;
+}
+.add-button{
+    padding:10px 30px;
+    margin-bottom:25px;
+    border: solid white;
+    border-radius: 10px;
+    color:#000c52;
+    background-color: white;
+}
+.add-box{
+    color: white;
+    border: solid white;
+    border-radius: 15px;
+    padding: 15px;
+}

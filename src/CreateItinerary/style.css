@@ -1,0 +1,32 @@
+.dform {
+    width: 110%;
+  
+    background-color: #fff;
+}
+
+input {
+    display: block;
+}
+
+input[type="button"], input[type="submit"] {
+    margin: 1rem auto;
+}
+
+.dform .day {
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+
+.dform .field{
+    
+}
+
+.dform .rmbtn{
+   
+}
+.bt-add{
+    color: white;
+  background-color: #000c52;
+  border: #000c52 solid;
+}

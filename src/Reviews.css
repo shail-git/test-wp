@@ -1,0 +1,39 @@
+/* .bg {
+    background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0,
+      radial-gradient(circle closest-side, #ffffff 53%, rgba(255, 255, 255, 0) 0)
+        0 0,
+      radial-gradient(circle closest-side, #ffffff 50%, rgba(255, 255, 255, 0) 0)
+        55px 0 #48b;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
+    background:
+		linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
+		repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%),
+		repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%);
+	background-color: rgba(34, 76, 152, 0.25);
+
+  } */
+  /* .pp{
+      float: left;
+      margin-right: 20px;
+      border-radius: 70%;
+      width:90px;
+  }
+  .cdx {
+    border-radius: 15px;
+    border: 1px solid #000c52;
+    padding: 20px;
+    width: 95%;
+    height: auto;
+    min-height: 200px;
+    margin: 20px 3%;
+    color:whitesmoke;
+  }
+
+  .review_image{
+    margin: 4px;
+  } */
+
+  .reviews{
+    padding-top: 3%;
+}

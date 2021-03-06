@@ -1,0 +1,21 @@
+.wp-blue-bg{
+    background:#000c52;
+}
+.outter{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.boxed-content{
+    background:white;
+    padding:15px;
+    border:1px solid white;
+    border-radius:15px;
+}
+@media screen and (max-width:550px){
+    .outter{
+        padding-left: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 10px;
+    }
+}

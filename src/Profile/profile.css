@@ -1,0 +1,80 @@
+.profile-header{
+    background-color: black;
+    height:10rem;
+}
+.profile {
+        
+    }
+.edit{
+    background-color: white;
+    border: none;
+}
+.edit ::after{
+    border: none;
+    background-color: white;
+}
+.log-bttn{
+    margin-top: 10%;
+    border: solid white;
+    border-radius: 10px;
+    background-color:#000c52;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: large; 
+}
+.log-bt{
+    background-color: #000c52;
+    color: white;
+    transition-duration: 0.35s;
+    border: solid;
+    border-color:  #000c52;
+    -webkit-transition-duration: 0.35s;
+    -webkit-transition-timing-function: linear;
+    box-shadow: 0px 0 0 white  inset;
+}
+.log-bt:hover{
+    background-color: black;
+    color: black;
+    border: solid;
+    border-color:  #000c52; 
+    box-shadow: 250px 0 0 white inset;
+}
+.round{
+    border-radius: 50%;
+}
+.box{ 
+    border:3px solid;
+    border-color: #000c52;
+    border-radius: 15px;
+    padding:2%;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.pl::-webkit-input-placeholder {
+    color: black;
+    font-size: x-large;
+}
+
+@media screen and (max-width:500px){
+    .profile img{
+        margin-left: 75px;
+            
+        }
+}
+
+@media screen and (max-width:325px){
+    .profile img{
+        margin-left: 45px;
+            
+        }
+}
+
+@media screen and (max-width:300px){
+    .profile img{
+        margin-left: 25px;
+            
+        }
+}
