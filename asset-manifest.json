@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/test-wp/static/css/main.a5ad1a5f.chunk.css",
+    "main.js": "/test-wp/static/js/main.c1e6bff5.chunk.js",
+    "main.js.map": "/test-wp/static/js/main.c1e6bff5.chunk.js.map",
+    "runtime-main.js": "/test-wp/static/js/runtime-main.64ef7348.js",
+    "runtime-main.js.map": "/test-wp/static/js/runtime-main.64ef7348.js.map",
+    "static/css/2.bd85c721.chunk.css": "/test-wp/static/css/2.bd85c721.chunk.css",
+    "static/js/2.4a94bd6d.chunk.js": "/test-wp/static/js/2.4a94bd6d.chunk.js",
+    "static/js/2.4a94bd6d.chunk.js.map": "/test-wp/static/js/2.4a94bd6d.chunk.js.map",
+    "index.html": "/test-wp/index.html",
+    "precache-manifest.7af9aa8a4ca3e8c012889129bd8f97c5.js": "/test-wp/precache-manifest.7af9aa8a4ca3e8c012889129bd8f97c5.js",
+    "service-worker.js": "/test-wp/service-worker.js",
+    "static/css/2.bd85c721.chunk.css.map": "/test-wp/static/css/2.bd85c721.chunk.css.map",
+    "static/css/main.a5ad1a5f.chunk.css.map": "/test-wp/static/css/main.a5ad1a5f.chunk.css.map",
+    "static/js/2.4a94bd6d.chunk.js.LICENSE.txt": "/test-wp/static/js/2.4a94bd6d.chunk.js.LICENSE.txt",
+    "static/media/Ani1.jpg": "/test-wp/static/media/Ani1.fa5c31e4.jpg",
+    "static/media/Login-bro.svg": "/test-wp/static/media/Login-bro.142bf9c2.svg",
+    "static/media/ani.png": "/test-wp/static/media/ani.39fec4fa.png",
+    "static/media/Mouse.css": "/test-wp/static/media/pocket.f4b66401.png",
+    "static/media/ban2.png": "/test-wp/static/media/ban2.40a55037.png",
+    "static/media/ban2m.png": "/test-wp/static/media/ban2m.81419bd7.png",
+    "static/media/c.png": "/test-wp/static/media/c.b892e709.png",
+    "static/media/deco.png": "/test-wp/static/media/deco.5d77ff38.png",
+    "static/media/e.png": "/test-wp/static/media/e.d351c182.png",
+    "static/media/sample.png": "/test-wp/static/media/sample.1ea7167c.png",
+    "static/media/slick-theme.css": "/test-wp/static/media/slick.f97e3bbf.svg",
+    "static/media/Home.css": "/test-wp/static/media/wave.e91c6d7c.png",
+    "static/media/wave_rev.png": "/test-wp/static/media/wave_rev.fd62668b.png",
+    "static/media/wp.png": "/test-wp/static/media/wp.9cf41a43.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64ef7348.js",
+    "static/css/2.bd85c721.chunk.css",
+    "static/js/2.4a94bd6d.chunk.js",
+    "static/css/main.a5ad1a5f.chunk.css",
+    "static/js/main.c1e6bff5.chunk.js"
+  ]
+}
